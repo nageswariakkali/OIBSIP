@@ -4,7 +4,7 @@
 import requests
 
 # 🔑 PASTE YOUR OPENWEATHERMAP API KEY HERE
-API_KEY = "d31de15f81c74e8734bbb4d6fd47fa6b"
+API_KEY = "f2a5c725c361f9a3fafcbe8868a08b29"
 
 
 def get_city_name():
