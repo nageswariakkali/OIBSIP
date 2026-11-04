@@ -63,7 +63,7 @@ def generate_password(length, use_upper, use_lower, use_digits, use_symbols):
     remaining_length = length - len(required_chars)
     random_chars = [random.choice(character_pool) for _ in range(remaining_length)]
 
-    # Combine and shuffle so required characters aren't always at the start
+   
     password_chars = required_chars + random_chars
     random.shuffle(password_chars)
 
